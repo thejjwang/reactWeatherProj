@@ -1,4 +1,4 @@
-const fetchWeather = async (userInput) => {
+const FetchWeather = async (userInput) => {
   try {
     let response = await fetch(
       `http://api.weatherapi.com/v1/current.json?key=66f6758d2dce44048d8180824232206&q=${userInput}`
@@ -10,4 +10,4 @@ const fetchWeather = async (userInput) => {
   }
 };
 
-export default fetchWeather;
+export default FetchWeather;

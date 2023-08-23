@@ -1,11 +1,20 @@
+import React from 'react'
 import { useState } from 'react'
-import displayWeather from './displayWeather'
+import DisplayWeather from './displayWeather'
+import DisplayButton from './displayButton'
+import FetchWeather from './weatherApi'
 
 function App() {
-
+  const 
   return (
     <>
-      <h1>jj</h1>
+      <div className="header">
+        <h1>jj</h1>
+      </div>
+      <div>
+        <DisplayWeather />
+      </div>
+        <DisplayButton />
     </>
   )
 }
